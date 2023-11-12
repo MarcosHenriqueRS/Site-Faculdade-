@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="Text/css" href="Formulario.css" media="">
+</head>
+<body>
+    <div>
+        <h1 id="Titulo">Cadastro DEVS</h1>
+        <p id="Subititulo">Complete suas Informações</p>
+    </div>
+    <!--Coletor de Informações-->
+    <form>
+        <fieldset class="grupo">
+            <div> 
+                <!--Coletor de Nome-->
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" nome="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <!--Coletor de Sobrenome-->
+                <label for="Sobrenome"></strong>Sobrenome</strong></label>
+                <input type="text" nome="Sobrenome" id="Sobrenome"required>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <!--Coletor de Emil-->
+            <label for="Email"></strong>Email</strong></label>
+            <input type="email" nome="email" id="email"required>
+        </div>
+        <!--Formulario de Pessquisa-->
+        <div>
+            <label Enviar mais informações ></label>
+            <label>
+                <input type="Radio" name="devweb" volue="fronted" checked> Receber mais Informações
+            </label>
+            <label>
+                <input type="radio" name="devweb" volue="backend"> Não Receber informações
+            </label>
+        </div>
+        <!-- Deixe sua Opinião-->
+        <div>
+            <label> Deixe sua Opinião </label>
+            <textarea row="6" style="width: 26em" id="experiência" name="experiência"></textarea>
+        </div>
+        <!--Botao de Enviar-->
+        <button class="botao" type="submit"> Concluído</button>
+    </form>
+</body>
+</html>
